@@ -1,0 +1,21 @@
+/*
+============================================================================
+ Name        : sdlpal_reg.rss
+ Author      : 
+ Copyright   : Your copyright notice
+ Description : This file contains all the resources for the sdlpal.
+============================================================================
+*/
+
+#include <appinfo.rh>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0xECC92048
+
+RESOURCE APP_REGISTRATION_INFO
+    {
+    app_file = "sdlpal";
+    embeddability = KAppNotEmbeddable;
+    newfile = KAppDoesNotSupportNewFile;
+    }
+
